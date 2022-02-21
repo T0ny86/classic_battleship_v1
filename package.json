@@ -4,8 +4,8 @@
   "description": "",
   "main": "./dist/app.js",
   "scripts": {
-    "watch":"tsc -w ./src/app.ts" ,
-    "start": "tsc ./src/app.ts", 
+    "watch":"tsc --watch" ,
+    "compile": "tsc", 
     "test": "node ./dist/app.js"
   },
   "repository": {
